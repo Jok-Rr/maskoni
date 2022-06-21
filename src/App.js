@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar/Navbar';
-import Slider from './components/Slider/Slider'
+import Navbar from './components/navbar/Navbar';
+import Welcome from './components/welcome/Welcome';
 import './assets/stylesheet/theme.scss'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <style>{'body { background-color: black; }'}</style>
       <Navbar />
+      <Welcome />
     </div>
   );
 }

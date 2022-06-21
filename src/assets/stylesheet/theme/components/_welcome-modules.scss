@@ -1,0 +1,38 @@
+.welcome-module {
+  margin-top: 102px;
+  height: calc(100vh - 102px);
+  color: $white;
+  align-items: center;
+
+  .left-part {
+    .title {
+      font-size: 7rem;
+      line-height: 1;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-weight: $bold;
+    }
+
+    #mint {
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
+
+  .right-part {
+    .item-slider {
+      width: 350px;
+      border-radius: 60px;
+    }
+
+    .rec-dot {
+      background-color: $white;
+    }
+
+    .rec-dot_active {
+      box-shadow: 0 0 1px 3px rgb(212, 90, 90);
+    }
+  }
+}
