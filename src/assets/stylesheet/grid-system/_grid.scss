@@ -1,0 +1,94 @@
+/*
+----------------------------------
+CONFIG GRID & WRAPPER
+Modify only the variables below 
+GUIDE -> https://css-tricks.com/snippets/css/complete-guide-grid/
+----------------------------------
+*/
+
+//GRID SETTINGS
+$columns: 12;
+$columns_mobile: 4;
+$gutters: 45px;
+
+//WRAPPER SETTINGS
+$margin_wrapper: 124px;
+$margin_wrapper_mobile: 72px;
+$max_width: 1600px;
+
+//BREAKPOINT SETTINGS
+$small_breakpoint: 320px !default;
+$medium_breakpoint: 800px !default;
+$large_breakpoint: 1300px !default;
+$wide_breakpoint: 1600px !default;
+
+/*
+----------------------------------
+GRID CLASS
+----------------------------------
+*/
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat($columns, minmax(0, calc(1fr - 20px)));
+  grid-template-columns: repeat($columns, 1fr);
+  grid-row-gap: 0;
+
+  @include at-least(medium) {
+    grid-column-gap: $gutters;
+  }
+
+  @include up-to(medium) {
+    grid-template-columns: repeat($columns_mobile, 1fr);
+  }
+}
+
+@include at-least(small) {
+  @include parse-columns('s');
+}
+
+@include at-least(medium) {
+  @include parse-columns('m');
+}
+
+@include at-least(large) {
+  @include parse-columns('l');
+}
+
+@include at-least(wide) {
+  @include parse-columns('w');
+}
+
+/*
+----------------------------------
+WRAPPER CLASS
+----------------------------------
+*/
+
+.container {
+  max-width: $max_width;
+
+  @include at-least(medium) {
+    width: calc(100% - #{$margin_wrapper});
+  }
+
+  @include up-to(medium) {
+    width: calc(100% - #{$margin_wrapper_mobile});
+  }
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
