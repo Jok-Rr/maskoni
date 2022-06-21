@@ -1,0 +1,15 @@
+.about-module {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  align-items: center;
+  color: $white;
+  figure{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+    img{
+      width: 100%;
+    }
+  }
+}

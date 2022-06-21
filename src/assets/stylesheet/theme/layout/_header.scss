@@ -6,6 +6,8 @@
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100vw;
+  z-index: 10000;
+  color: black;
 
   nav {
     position: relative;
@@ -63,7 +65,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
     .nav-links {
       .link {
         font-weight: $bold;
