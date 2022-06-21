@@ -1,14 +1,24 @@
 import Navbar from './components/navbar/Navbar';
 import Welcome from './components/welcome/Welcome';
+import About from './components/about/About';
 import './assets/stylesheet/theme.scss'
+import background from './background.png'
 
 function App() {
+  const divStyle = {
+    color: 'blue',
+    backgroundImage: 'url(' + background + ')',
+    // backgroundPositionX: '28px',
+    // backgroundPositionY: '-145px',
+    backgroundSize: 'cover'
+  };
+
   return (
-    <div className="App">
-      <style>{'body { background-color: black; }'}</style>
+    <div className="App" style={divStyle}>
       <Navbar />
       <Welcome />
-    </div>
+      <About />
+    </ div>
   );
 }
 
