@@ -1,6 +1,7 @@
 import Navbar from './components/navbar/Navbar';
 import Welcome from './components/welcome/Welcome';
 import About from './components/about/About';
+import Roadmap from './components/roadmap/Roadmap';
 import './assets/stylesheet/theme.scss'
 import background from './background.png'
 
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Welcome />
       <About />
+      <Roadmap />
     </ div>
   );
 }

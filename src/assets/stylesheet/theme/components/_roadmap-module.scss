@@ -1,0 +1,57 @@
+.roadmap-module {
+  padding-bottom: 180px;
+
+  .title-box {
+    margin-bottom: 80px;
+
+    img {
+      width: 20%;
+    }
+  }
+
+  .timeline-card-content {
+    padding: 35px;
+    border-radius: 10px !important;
+    margin-bottom: 60px;
+
+    .card-title {
+      padding: 0;
+      margin: 0;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .card-sub-title {
+      color: black;
+      font-size: 2rem;
+    }
+
+    .card-description {
+      display: none;
+    }
+
+
+  }
+
+  .timeline-item-title {
+    font-size: 3.5rem !important;
+    text-transform: uppercase !important;
+    color: $white  !important;
+  }
+
+  .iFEHXs.active {
+    background: none !important;
+  }
+
+  .OXRsZ:not(.using-icon).active::after {
+    background: transparent !important;
+  }
+
+  .dZOxgG::after {
+    background: $white  !important;
+  }
+
+  .OXRsZ:not(.using-icon) {
+    background: $white  !important;
+  }
+}

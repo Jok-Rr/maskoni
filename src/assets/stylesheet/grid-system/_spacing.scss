@@ -10,8 +10,8 @@ $space: 15px;
 
 //ALL SIZE SPACE SETTINGS
 
-$space_tiny: $space / 4;
-$space_small: $space / 2;
+$space_tiny: calc($space / 4);
+$space_small: calc($space / 2);
 $space_medium: $space * 2;
 $space_large: $space * 4;
 $space_wide: $space * 8;
