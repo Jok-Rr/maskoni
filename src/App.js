@@ -3,6 +3,7 @@ import Welcome from './components/welcome/Welcome';
 import About from './components/about/About';
 import Roadmap from './components/roadmap/Roadmap';
 import Team from './components/team/Team';
+import Footer from './components/footer/Footer';
 import './assets/stylesheet/theme.scss'
 import background from './background.png'
 
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Roadmap />
       <Team />
+      <Footer />
     </ div>
   );
 }
