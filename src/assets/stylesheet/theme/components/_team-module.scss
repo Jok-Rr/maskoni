@@ -1,0 +1,52 @@
+.team-module {
+  padding-bottom: 200px;
+
+  .title-box {
+    margin-bottom: 80px;
+
+    img {
+      width: 20%;
+    }
+  }
+
+  .card {
+    text-align: center;
+    color: $white;
+
+    figure {
+      overflow: hidden;
+      border-radius: 10px;
+      height: 220px;
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .name {
+      font-size: 4.5rem;
+    }
+
+    .role {
+      font-weight: $bold;
+    }
+  }
+
+  .first-line {
+    margin-bottom: 45px;
+  }
+}
+
+.first {
+  @include at-least(medium) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+}
+
+.second {
+  @include at-least(medium) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+}
