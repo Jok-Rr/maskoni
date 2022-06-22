@@ -4,21 +4,21 @@ import robin from "./images/cell-blue.png";
 
 const Team = () => {
   return (
-    <div className='team-module container'>
+    <div className='team-module container' id='team'>
       <div className='title-box'>
         <h2 className='neontech title'>Team</h2>
         <img src={katana} alt="" />
       </div>
       <div className="trombinoscope">
         <div className="first-line grid">
-          <div className='m_2col card first'>
+          <div className='m_2col s_2col card first'>
             <figure>
               <img src={robin} alt="" />
             </figure>
             <p className='name neontech'>ROBIN</p>
             <p className='role'>Full Stack Dev</p>
           </div>
-          <div className='m_2col card'>
+          <div className='m_2col s_2col card'>
             <figure>
               <img src={robin} alt="" />
             </figure>
@@ -27,28 +27,28 @@ const Team = () => {
           </div>
         </div>
         <div className="second-line grid">
-          <div className='m_2col card second'>
+          <div className='s_2col m_2col card second'>
             <figure>
               <img src={robin} alt="" />
             </figure>
             <p className='name neontech'>ROBIN</p>
             <p className='role'>Full Stack Dev</p>
           </div>
-          <div className='m_2col card'>
+          <div className='m_2col s_2col card'>
             <figure>
               <img src={robin} alt="" />
             </figure>
             <p className='name neontech'>ROBIN</p>
             <p className='role'>Full Stack Dev</p>
           </div>
-          <div className='m_2col card'>
+          <div className='m_2col s_2col card'>
             <figure>
               <img src={robin} alt="" />
             </figure>
             <p className='name neontech'>ROBIN</p>
             <p className='role'>Full Stack Dev</p>
           </div>
-          <div className='m_2col card'>
+          <div className='m_2col s_2col card'>
             <figure>
               <img src={robin} alt="" />
             </figure>

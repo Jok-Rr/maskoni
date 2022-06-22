@@ -2,12 +2,21 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: $white;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100vw;
   z-index: 10000;
-  color: black;
+  
+
+  @include up-to(medium){
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(2px);
+  }
+  @include at-least(medium){
+    background: $white;
+    color: black;
+  }
 
   nav {
     position: relative;
@@ -61,7 +70,7 @@
     left: 0;
     height: calc(100vh - 102px);
     width: 100vw;
-    background-color: $white;
+    background-color: #211F1F;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -87,9 +96,18 @@
 
 #mint {
   background-color: red;
-  padding: 20px 48px;
+  padding: 30px 99px 20px 99px;
   border-radius: 20px;
   color: $white;
+  font-size: 2.5rem;
   width: fit-content;
   font-weight: $bold;
+  position: relative;
+  img{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+  }
 }

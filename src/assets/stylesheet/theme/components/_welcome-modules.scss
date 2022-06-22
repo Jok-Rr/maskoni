@@ -1,13 +1,24 @@
 .welcome-module {
-  margin-top: 102px;
-  height: calc(100vh - 102px);
   color: $white;
   align-items: center;
 
+  @include at-least(medium) {
+    margin-top: 102px;
+    height: calc(100vh - 102px);
+  }
+
+  @include up-to(medium) {
+    padding-top: 122px;
+    // margin-top: 102px;
+  }
+
   .left-part {
-    
+
     .subtitle {
       font-weight: $bold;
+      @include up-to(medium){
+        margin-bottom: 30px;
+      }
     }
 
     #mint {
@@ -18,16 +29,42 @@
 
   .right-part {
     .item-slider {
-      width: 350px;
+      @include at-least(medium){
+        width: 350px;
+      }
+      @include up-to(medium){
+        width: 100%;
+      }
       border-radius: 60px;
     }
 
     .rec-dot {
       background-color: $white;
     }
+    .rec-arrow{
+      display: none;
+    }
 
     .rec-dot_active {
       box-shadow: 0 0 1px 3px rgb(212, 90, 90);
     }
+  }
+}
+
+.desktop {
+  @include up-to(medium) {
+    display: none;
+  }
+}
+
+.mobile {
+  @include up-to(medium) {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @include at-least(medium) {
+    display: none;
   }
 }

@@ -2,10 +2,24 @@
   padding-bottom: 80px;
 
   .title-box {
-    margin-bottom: 80px;
+    @include at-least(medium) {
+      margin-bottom: 80px;
+    }
 
-    img {
-      width: 20%;
+    @include up-to(medium) {
+      margin-bottom: 50px;
+    }
+
+    @include at-least(medium) {
+      img {
+        width: 20%;
+      }
+    }
+
+    @include up-to(medium) {
+      img {
+        width: 55%;
+      }
     }
   }
 
@@ -13,17 +27,32 @@
     padding: 35px;
     border-radius: 10px !important;
 
+    @include up-to(medium) {
+      margin-bottom: 20px;
+    }
 
     .card-title {
       padding: 0;
       margin: 0;
-      font-size: 3rem;
       margin-bottom: 10px;
+
+      @include at-least(medium) {
+        font-size: 3rem;
+      }
+
+      @include up-to(medium) {
+        font-size: 2.5rem;
+      }
     }
 
     .card-sub-title {
       color: black;
-      font-size: 2rem;
+      @include at-least(medium){
+        font-size: 2rem;
+      }
+      @include up-to(medium){
+        font-size: 1.5rem;
+      }
     }
 
     .card-description {
@@ -34,9 +63,17 @@
   }
 
   .timeline-item-title {
-    font-size: 3.5rem !important;
     text-transform: uppercase !important;
     color: $white  !important;
+
+    @include at-least(medium) {
+      font-size: 3.5rem !important;
+    }
+
+    @include up-to(medium) {
+      font-size: 2rem !important;
+      margin-bottom: 15px;
+    }
   }
 
   .iFEHXs.active {
@@ -53,5 +90,42 @@
 
   .OXRsZ:not(.using-icon) {
     background: $white  !important;
+  }
+}
+
+
+
+@include up-to(medium) {
+
+  .eHDQRI {
+    top: 0 !important;
+    right: 50% !important;
+  }
+
+  .hGKbfr {
+    top: 0 !important;
+    left: 50% !important;
+  }
+
+  .kGtjjr {
+    margin: auto !important;
+    justify-content: center !important;
+  }
+
+  .dZOxgG {
+    display: none !important;
+  }
+
+  .llAttw.right {
+    flex-direction: column;
+  }
+
+  .llAttw.left {
+    flex-direction: column-reverse;
+  }
+
+  .fcBCjT {
+    width: 100% !important;
+    justify-content: center !important;
   }
 }

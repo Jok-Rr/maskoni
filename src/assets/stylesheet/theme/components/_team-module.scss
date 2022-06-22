@@ -5,7 +5,12 @@
     margin-bottom: 80px;
 
     img {
-      width: 20%;
+      @include up-to(medium){
+        width: 50%;
+      }
+      @include at-least(medium){
+        width: 20%;
+      }
     }
   }
 
@@ -34,6 +39,9 @@
 
   .first-line {
     margin-bottom: 45px;
+  }
+  .second-line{
+    grid-row-gap: 15px;
   }
 }
 

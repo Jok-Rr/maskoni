@@ -22,10 +22,18 @@ body {
 }
 
 .title {
-  font-size: 7rem;
   line-height: 1;
-  margin-bottom: 15px;
   color: $white;
+
+  @include at-least(medium) {
+    font-size: 7rem;
+    margin-bottom: 15px;
+
+  }
+  @include up-to(medium){
+    font-size: 4rem;
+    margin-bottom: 15px;
+  }
 }
 
 .neontech {

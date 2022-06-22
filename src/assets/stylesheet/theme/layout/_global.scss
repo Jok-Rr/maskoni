@@ -36,3 +36,9 @@ body {
 .overflow-hidden {
   overflow-y: hidden;
 }
+
+.App {
+  @include up-to(medium) {
+    background-position-x: -1119px;
+  }
+}

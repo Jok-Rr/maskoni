@@ -31,7 +31,7 @@ const Roadmap = () => {
   ];
 
   return (
-    <div className='roadmap-module container'>
+    <div className='roadmap-module container' id='roadmap'>
       <div className='title-box'>
         <h2 className='neontech title'>Roadmap</h2>
         <img src={katana} alt="" />

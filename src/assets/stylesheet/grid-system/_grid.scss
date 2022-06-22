@@ -10,6 +10,7 @@ GUIDE -> https://css-tricks.com/snippets/css/complete-guide-grid/
 $columns: 12;
 $columns_mobile: 4;
 $gutters: 45px;
+$gutters_mobile: 10px;
 
 //WRAPPER SETTINGS
 $margin_wrapper: 124px;
@@ -41,6 +42,7 @@ GRID CLASS
 
   @include up-to(medium) {
     grid-template-columns: repeat($columns_mobile, 1fr);
+    grid-column-gap: $gutters_mobile;
   }
 }
 

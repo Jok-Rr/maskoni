@@ -1,3 +1,4 @@
+import arc from "./torii-cta.png"
 export default function navbar() {
 
   function openMenu() {
@@ -9,15 +10,15 @@ export default function navbar() {
   }
 
   return (
-    <div className='header'>
+    <div className='header' id="home">
       <nav className='grid container'>
         <h1 className='h1 s_3col m_3col'>Maskoni</h1>
         <ul className='nav-links m_7col flex justify-content-center'>
-          <li className='link'>HOME</li>
-          <li className='link'>ABOUT</li>
-          <li className='link'>ROADMAP</li>
-          <li className='link'>TEAM</li>
-          <li className='link' id='mint'>MINT</li>
+          <li className='link'><a href="#">HOME</a></li>
+          <li className='link'><a href="#about">ABOUT</a></li>
+          <li className='link'><a href="#roadmap">ROADMAP</a></li>
+          <li className='link'><a href="#team">TEAM</a></li>
+          <li className='link' id='mint'><p>MINT</p><img src={arc} alt="" /></li>
         </ul>
         <ul className='social_link m_2col flex justify-content-end'>
           <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-discord"></i></a></li>
@@ -27,11 +28,11 @@ export default function navbar() {
       </nav>
       <div id='mobile-menu' >
         <ul className='nav-links'>
-          <li className='link'>HOME</li>
-          <li className='link'>ABOUT</li>
-          <li className='link'>ROADMAP</li>
-          <li className='link'>TEAM</li>
-          <li className='link' id='mint'>MINT</li>
+          <li className='link'><a href="#">HOME</a></li>
+          <li className='link'><a href="#about">ABOUT</a></li>
+          <li className='link'><a href="#roadmap">ROADMAP</a></li>
+          <li className='link'><a href="#team">TEAM</a></li>
+          <li className='link' id='mint'><p>MINT</p><img src={arc} alt="" /></li>
         </ul>
         <ul className='social_link flex'>
           <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-discord"></i></a></li>
