@@ -11,11 +11,8 @@ const Welcome = () => {
   return (
     <div className='welcome-module grid container'>
       <div className="left-part s_4col m_6col">
-        <h2 className='title neontech'>collect super
-          rate digital
-          artnoir</h2>
-        <p className='subtitle'>buy and sell NFTs from the world's
-          top artists.</p>
+        <h2 className='title neontech'>Collect your own Maskoni nft</h2>
+        <p className='subtitle'>buy one to enter the history of the Japanese demon.</p>
         <div id='mint' className='desktop'>
           <p >MINT</p>
           <img src={arc} alt="" />

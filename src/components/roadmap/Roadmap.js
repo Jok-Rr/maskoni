@@ -6,27 +6,33 @@ const Roadmap = () => {
   const items = [
     {
       title: "PHASE 1",
-      cardTitle: "Project genesis",
+      cardTitle: "The beginning",
       cardSubtitle:
-        "To build this project, we formed a team of Elrond enthusiast. We have been thinking for several weeks about the project, the roadmap, the artwork, and how the project could be useful for the Elrond ecosystem."
+        "Generate art, create minting site and secure metadata. Find idea arround project."
     },
     {
       title: "PHASE 2",
-      cardTitle: "Project genesis",
+      cardTitle: "Launch",
       cardSubtitle:
-        "To build this project, we formed a team of Elrond enthusiast. We have been thinking for several weeks about the project."
+        " Launch website & fix on a minting price and a mint date. Start minting & sell outGet collection verified on many platforms."
     },
     {
       title: "PHASE 3",
-      cardTitle: "Project genesis",
+      cardTitle: "Holders Exclusive Discord",
       cardSubtitle:
-        "To build this project, we formed a team of Elrond enthusiast. We have been thinking for several weeks about the project, the roadmap, the artwork, and how the project could be useful for the Elrond ecosystem."
+        "A new exclusive Discord server will be created for Maskoni NFT holders. Our goal is to create the most powerful group. The Discord will strengthen our community: we will host events on a regular basis."
     },
     {
       title: "PHASE 4",
       cardTitle: "The Merch Store",
       cardSubtitle:
-        "Our shop will go live soon, for Elronds Friends holders. Featuring clothes and some interesting stuff that we can't reveal yet. Our artist himself will design the items. Sneak peeks will be  posted as soon as possible."
+        "Our shop will go live soon, for Maskoni holders. Featuring clothes and some interesting stuff that we can't reveal yet. Our artist himself will design the items. Sneak peeks will be posted as soon as possible."
+    },
+    {
+      title: "PHASE 5",
+      cardTitle: "Holder Giveaway part",
+      cardSubtitle:
+        "We have decided to distribute part of our winnings in many giveaways. The biggest is a trip organized by us to Japan, the country of our Maskoni. And many other little giveaways will also be distributed, shhhhh stay tuned…"
     }
   ];
 

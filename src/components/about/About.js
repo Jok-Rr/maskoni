@@ -11,7 +11,9 @@ const About = () => {
       </div>
       <div className="right-part s_4col m_6col">
         <h2 className='title neontech'>What are <br /> Maskoni ?</h2>
-        <p className='subtitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique ut odio nec suscipit. maximus ex sapien, malesuada tincidunt nunc laoreet id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.  tristique ut odio nec suscipit. Suspendisse maximus ex sapien, malesuada tincidunt nunc laoreet id.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className='subtitle'>Maskoni  is not just an NFT collection, our goal is to build a strong community and a large long-term.
+Our ambitions are huge. We want to conquer different areas and create something that every member will be able to enjoy and to be proud to be part of this community.
+</p>
       </div>
     </div>
   );

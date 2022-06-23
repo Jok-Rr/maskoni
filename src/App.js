@@ -11,8 +11,6 @@ function App() {
   const divStyle = {
     color: 'blue',
     backgroundImage: 'url(' + background + ')',
-    // backgroundPositionX: '28px',
-    // backgroundPositionY: '-145px',
     backgroundSize: 'cover'
   };
 
