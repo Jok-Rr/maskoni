@@ -22,7 +22,7 @@ export default function navbar() {
         </ul>
         <ul className='social_link m_2col flex justify-content-end'>
           <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-discord"></i></a></li>
-          <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-twitter"></i></a></li>
+          <li className='items'><a href='https://twitter.com/MaskOni_NFT' className="discord-logo" target='blank'><i className="fa-brands fa-twitter"></i></a></li>
         </ul>
         <i className="fa-solid fa-bars s_1col justify-content-end" onClick={openMenu} id='burger-btn'  ></i>
       </nav>
@@ -36,7 +36,7 @@ export default function navbar() {
         </ul>
         <ul className='social_link flex'>
           <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-discord"></i></a></li>
-          <li className='items'><a href='#sd' className="discord-logo"><i className="fa-brands fa-twitter"></i></a></li>
+          <li className='items'><a href='https://twitter.com/MaskOni_NFT' className="discord-logo" target='blank'><i className="fa-brands fa-twitter"></i></a></li>
         </ul>
       </div>
     </div>
