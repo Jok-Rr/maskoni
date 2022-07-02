@@ -3,6 +3,7 @@ import { Chrono } from "react-chrono";
 import katana from "./katan.png"
 
 const Roadmap = () => {
+  // Phase RoadMap
   const items = [
     {
       title: "PHASE 1",
@@ -42,6 +43,7 @@ const Roadmap = () => {
         <h2 className='neontech title'>Roadmap</h2>
         <img src={katana} alt="" />
       </div>
+      {/* RoadMap Library */}
       <Chrono items={items} hideControls useReadMore="false" mode="VERTICAL_ALTERNATING" />
     </div>
   );

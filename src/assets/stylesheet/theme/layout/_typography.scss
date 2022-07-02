@@ -30,12 +30,36 @@ body {
     margin-bottom: 15px;
 
   }
-  @include up-to(medium){
-    font-size: 4rem;
+
+  @include up-to(medium) {
+    font-size: 5rem;
     margin-bottom: 15px;
   }
 }
 
 .neontech {
   font-family: 'Neo Tech', sans-serif;
+}
+
+.title-box {
+  @include at-least(medium) {
+    margin-bottom: 80px;
+  }
+
+  @include up-to(medium) {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  @include at-least(medium) {
+    img {
+      width: 20%;
+    }
+  }
+
+  @include up-to(medium) {
+    img {
+      width: 55%;
+    }
+  }
 }

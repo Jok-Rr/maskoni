@@ -1,28 +1,6 @@
 .roadmap-module {
   padding-bottom: 80px;
 
-  .title-box {
-    @include at-least(medium) {
-      margin-bottom: 80px;
-    }
-
-    @include up-to(medium) {
-      margin-bottom: 50px;
-    }
-
-    @include at-least(medium) {
-      img {
-        width: 20%;
-      }
-    }
-
-    @include up-to(medium) {
-      img {
-        width: 55%;
-      }
-    }
-  }
-
   .vertical-item-row:first-child {
     .timeline-card-content {
       background-color: $red;

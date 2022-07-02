@@ -1,6 +1,11 @@
 import React from 'react';
 import katana from "./images/katan.png";
-import robin from "./images/cell-blue.png";
+import marc from "./images/04.png";
+import robin from "./images/43.png";
+import daenys from "./images/02.png";
+import tom from "./images/03.png";
+import florian from "./images/05.png";
+import baptiste from "./images/01.png";
 
 const Team = () => {
   return (
@@ -13,14 +18,14 @@ const Team = () => {
         <div className="first-line grid">
           <div className='m_2col s_2col card first'>
             <figure>
-              <img src={robin} alt="" />
+              <img src={tom} alt="" />
             </figure>
             <p className='name neontech'>TOM</p>
             <p className='role'>Full Stack Dev</p>
           </div>
           <div className='m_2col s_2col card'>
             <figure>
-              <img src={robin} alt="" />
+              <img src={florian} alt="" />
             </figure>
             <p className='name neontech'>FLORIAN</p>
             <p className='role'>Full Stack Dev</p>
@@ -36,21 +41,21 @@ const Team = () => {
           </div>
           <div className='m_2col s_2col card'>
             <figure>
-              <img src={robin} alt="" />
+              <img src={baptiste} alt="" />
             </figure>
             <p className='name neontech'>BAPTISTE</p>
             <p className='role'>Content Creator</p>
           </div>
           <div className='m_2col s_2col card'>
             <figure>
-              <img src={robin} alt="" />
+              <img src={marc} alt="" />
             </figure>
             <p className='name neontech'>MARC</p>
             <p className='role'>Artist</p>
           </div>
           <div className='m_2col s_2col card'>
             <figure>
-              <img src={robin} alt="" />
+              <img src={daenys} alt="" />
             </figure>
             <p className='name neontech'>DAENYS</p>
             <p className='role'>Head of Community</p>

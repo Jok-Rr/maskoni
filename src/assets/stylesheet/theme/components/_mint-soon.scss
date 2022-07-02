@@ -1,0 +1,55 @@
+.MintSoon {
+
+  .left-part {
+    @include up-to(medium) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .item-slider {
+    @include at-least(medium) {
+      width: 350px;
+    }
+
+    @include up-to(medium) {
+      width: 100%;
+    }
+
+    border-radius: 60px;
+  }
+
+  .rec-dot {
+    background-color: $white;
+  }
+
+  .rec-arrow {
+    display: none;
+  }
+
+  .rec-dot_active {
+    box-shadow: 0 0 1px 3px rgb(212, 90, 90);
+  }
+
+  @include at-least(medium) {
+    margin-top: 102px;
+    padding: 95px 0px;
+  }
+
+  @include up-to(medium) {
+    padding-top: 122px;
+    // margin-top: 102px;
+  }
+
+  .twitter {
+    background: #40B0E0;
+    border-radius: 16px;
+    padding: 15px;
+    margin-right: 15px;
+  }
+
+  .discord {
+    background: #4E63EF;
+    border-radius: 16px;
+    padding: 15px;
+  }
+}
